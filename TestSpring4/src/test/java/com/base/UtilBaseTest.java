@@ -1,4 +1,4 @@
-package base;
+package com.base;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,6 +18,7 @@ public class UtilBaseTest {
 	
 	@Before
 	public void befor(){
+		System.out.println("befor invoke");
 		if(StringUtils.isEmpty(springXmlPath)){
 			springXmlPath = "classpath*:spring-*.xml";
 		}
@@ -26,6 +27,7 @@ public class UtilBaseTest {
 	}
 	@After
 	public void after(){
+		System.out.println("after invoke");
 		context.destroy();
 	}
 	
