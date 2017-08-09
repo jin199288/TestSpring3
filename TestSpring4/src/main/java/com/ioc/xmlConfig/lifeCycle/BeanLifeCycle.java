@@ -1,4 +1,4 @@
-package com.ioc.lifeCycle;
+package com.ioc.xmlConfig.lifeCycle;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

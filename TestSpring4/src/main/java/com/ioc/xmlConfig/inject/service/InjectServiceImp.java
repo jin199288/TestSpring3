@@ -1,6 +1,6 @@
-package com.ioc.inject.service;
+package com.ioc.xmlConfig.inject.service;
 
-import com.ioc.inject.dao.IInjectDao;
+import com.ioc.xmlConfig.inject.dao.IInjectDao;
 
 public class InjectServiceImp implements IInjectService {
 	private IInjectDao iInjectDao;	

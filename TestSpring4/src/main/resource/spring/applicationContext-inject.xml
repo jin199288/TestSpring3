@@ -4,9 +4,9 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" >        
 
-	<bean id="iInjectService" class="com.ioc.inject.service.InjectServiceImp">
+	<bean id="iInjectService" class="com.ioc.xmlConfig.inject.service.InjectServiceImp">
 		<property name="iInjectDao" ref="iInjectDao"></property> 
 		<!-- <constructor-arg name="iInjectDao" ref="iInjectDao"></constructor-arg> -->
 	</bean>	
-	<bean id="iInjectDao" class="com.ioc.inject.dao.InjectDaoImp"></bean>
+	<bean id="iInjectDao" class="com.ioc.xmlConfig.inject.dao.InjectDaoImp"></bean>
  </beans>

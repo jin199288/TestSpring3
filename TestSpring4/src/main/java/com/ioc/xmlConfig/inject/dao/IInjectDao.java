@@ -1,4 +1,4 @@
-package com.ioc.inject.dao.copy;
+package com.ioc.xmlConfig.inject.dao;
 
 public interface IInjectDao {
 	public void say();

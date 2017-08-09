@@ -1,4 +1,4 @@
-package com.ioc.inject.dao;
+package com.ioc.xmlConfig.inject.dao;
 
 public class InjectDaoImp implements IInjectDao {
 	public void say() {

@@ -4,5 +4,5 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" > 
 	
-	<bean id="beanLifeCycle" class="com.ioc.lifeCycle.BeanLifeCycle" init-method="init" destroy-method="clean"></bean>
+	<bean id="beanLifeCycle" class="com.ioc.xmlConfig.lifeCycle.BeanLifeCycle" init-method="init" destroy-method="clean"></bean>
  </beans>

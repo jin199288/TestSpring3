@@ -4,5 +4,5 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" > 
 	
-	<bean id="scopeBean" class="com.ioc.scope.ScopeBean" scope="prototype"></bean>
+	<bean id="scopeBean" class="com.ioc.xmlConfig.scope.ScopeBean" scope="prototype"></bean>
  </beans>

@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 import com.base.UtilBaseTest;
+import com.ioc.xmlConfig.scope.ScopeBean;
 
 @RunWith(BlockJUnit4ClassRunner.class)
 public class TestScope extends UtilBaseTest {

@@ -1,6 +1,9 @@
-package com.ioc.inject.dao.copy;
+package com.ioc.annoConfig.inject.dao;
 
-public class InjectDaoImp implements IInjectDao {
+import org.springframework.stereotype.Repository;
+
+@Repository("injectDao")
+public class InjectDaoImp implements InjectDao {
 	public void say() {
 		System.out.println("invoke injectDao..");
 	}

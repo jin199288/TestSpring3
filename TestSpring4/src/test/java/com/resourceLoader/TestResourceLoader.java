@@ -1,5 +1,9 @@
 package com.resourceLoader;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
@@ -17,5 +21,5 @@ public class TestResourceLoader extends UtilBaseTest{
 		String path1 = "classpath:jdbc.properties";
 		ResourceLoader resourceLoader = super.getBean("resourceLoader");
 		resourceLoader.getResource(path1);
-	}
+	}	
 }

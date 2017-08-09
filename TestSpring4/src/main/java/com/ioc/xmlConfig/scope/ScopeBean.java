@@ -1,4 +1,4 @@
-package com.ioc.scope;
+package com.ioc.xmlConfig.scope;
 
 public class ScopeBean {
 	public void say() {
