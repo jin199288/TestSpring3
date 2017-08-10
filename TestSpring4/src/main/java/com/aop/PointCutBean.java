@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class PointCutBean {
 	public Object pointCut() {
 		System.out.println("point cut invoke..");
-		throw new RuntimeException("exception");
+		//throw new RuntimeException("exception");
+		return null;
 	}
 }
