@@ -16,6 +16,7 @@ public class TestAdviceType extends UtilBaseTest{
 	public void testAdviceType(){
 		PointCutBean  pointCutBean = super.getBean("pointCutBean");
 		pointCutBean.pointCut();
+		System.out.println("3");
 	}
 	
 	
