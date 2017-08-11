@@ -7,6 +7,6 @@ public class PointCutBean {
 	public Object pointCut() {
 		System.out.println("point cut invoke...");
 		//throw new RuntimeException("exception");
-		return "a3";
+		return "b3";
 	}
 }
